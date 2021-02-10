@@ -1,0 +1,51 @@
+#allCars {
+    background: url(../img/home/allCars.jpg) no-repeat center right/cover;
+}
+
+#brands {
+    background: url(../img/home/brands.jpg) no-repeat center center/cover;
+}
+
+#shifters {
+    background: url(../img/home/shifter.jpg) no-repeat center center/cover;
+}
+
+#classes {
+    background: url(../img/home/classes.jpg) no-repeat center center/cover;
+}
+
+#decade {
+    background: url(../img/home/decades.jpg) no-repeat center center/cover;
+}
+
+#customPacks {
+    background: url(../img/home/customPacks.jpg) no-repeat center left -3px/cover;
+}
+
+#hShifters {
+    background: url(../img/shifters/hPattern.jpg) no-repeat center center/cover;
+}
+
+#paddleShifters {
+    background: url(../img/shifters/paddleShifter.jpg) no-repeat center center/cover;
+}
+
+#sequencialShifters {
+    background: url(../img/shifters/seqenctial.jpg) no-repeat center center/cover;
+}
+
+#roadCars {
+    background: url(../img/classes/street.jpg) no-repeat center center/cover;
+}
+
+#trackCars {
+    background: url(../img/classes/track.jpg) no-repeat center center/cover;
+}
+
+#openWheel {
+    background: url(../img/classes/openWheeler.jpg) no-repeat center left -3px/cover;
+}
+
+#prototypes {
+    background: url(../img/classes/prototype.jpg) no-repeat center center/cover;
+}

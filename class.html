@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assetto Corsa Garage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/backgrounds.css">
+    <link rel="stylesheet" href="css/filters.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+
+    <nav id="navbar" class="nav-colored">
+        <div class="cont">
+            <div class="nav-links">
+                <a href="index.html"><img src="icons/logo_small.png" alt="Assetto Corsa Garage"></a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-searchbar">
+                <input type="text" name="searchbar" id="searchbar" placeholder="Search">
+                <button type="submit"></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="navbar-filler"></div>
+
+    <div class="cont" id="container-filter">
+        <div class="container">
+            <div class="table" id="roadCars">
+                <div class="title">Street Cars</div>
+                <a href="cars.html?page=1&filter=class&class=road" class="btn-small">View</a>
+            </div>
+    
+            <div class="table" id="trackCars">
+                <div class="title">Track Cars</div>
+                <a href="cars.html?page=1&filter=class&class=race" class="btn-small">View</a>
+            </div>
+    
+            <div class="table" id="openWheel">
+                <div class="title">Open Wheel</div>
+                <a href="cars.html?page=1&filter=class&class=openWheel" class="btn-small">View</a>
+            </div>
+    
+            <div class="table" id="prototypes">
+                <div class="title">Prototypes</div>
+                <a href="cars.html?page=1&filter=class&class=prototype" class="btn-small">View</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="footer">
+        <div class="cont">
+            <img src="icons/logo_large.png" alt="Assetto Corsa Garage">
+            <p>Assetto Corsa Garage &copy; 2021</p>
+        </div>
+    </footer>
+
+    <div class="footer-filler"></div>
+    <script src="js/search.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+@media(max-width: 1280px) {
+    #hero .cont {
+        padding-left: 10%;
+    }
+
+    #hero .cont {
+        width: 960px;
+    }
+
+    .table {
+        min-width: 288px;
+    }
+}
+
+@media(max-width: 960px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #navbar .cont {
+        padding: 20px 10px;
+    }
+
+    #hero .cont {
+        width: 100%;
+    }
+
+    #container-filter .container {
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #navbar {
+        background: #13181B !important;
+        position: inherit;
+    }
+
+    #navbar .cont .nav-links a {display: none;}
+    #navbar .cont .nav-links a:first-of-type {display: block;}
+
+    #hero {
+        height: 460px;
+        max-height: 75vh;
+        padding-bottom: 3rem;
+    }
+
+    #hero h1 {
+        font-size: 51px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    #hero .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    #hero .cont form {
+        align-self: center;
+    }
+
+    .navbar-filler {
+        display: none;
+    }
+
+    #container-brands {
+        margin: 2rem 0;
+    }
+}
+
+@media(max-width: 350px) {
+    #navbar .cont .nav-searchbar {display: none;}
+
+    #navbar .cont {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    #hero {
+        max-height: 100vh;
+    }
+
+    #hero h1 {
+        font-size: 34px;
+        line-height: 41px;
+    }
+
+    #hero form select {
+        width: 275px;
+    }
+
+    .container {
+        margin: 2rem 0;
+    }
+
+    #footer {
+        padding: 30px 0;
+    }
+
+    #footer .cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer img {
+        position: inherit;
+    }
+
+    .footer-filler {
+        height: 171px;
+    }
+}

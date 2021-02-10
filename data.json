@@ -1,0 +1,14 @@
+{
+    "people": [
+        {
+            "name": "Santi",
+            "age": 20,
+            "school": "CSUF"
+        },
+        {
+            "name": "Justin",
+            "age": 19,
+            "school": "UCSD" 
+        }
+    ]
+}

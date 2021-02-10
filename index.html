@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assetto Corsa Garage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/backgrounds.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="cont">
+            <div class="nav-links">
+                <a href="index.html"><img src="icons/logo_small.png" alt="Assetto Corsa Garage"></a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-searchbar">
+                <input type="text" name="searchbar" id="searchbar" placeholder="Search">
+                <button type="submit"></button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="cont">
+            <h1>Find the best <br> mods for you</h1>
+    
+            <form>
+                <select name="brand" id="brand">
+                    <option value="any" selected>Brand (Any)</option>
+                </select>
+                <select name="shifter" id="shifter">
+                    <option value="any">Shifter (Any)</option>
+                </select>
+                <select name="class" id="class">
+                    <option value="any">Class (Any)</option>
+                </select>
+
+                <button type="submit" class="btn" id="advancedSearch">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="container cont" id="container-filter">
+        <div class="table" id="allCars">
+            <div class="title">All Cars</div>
+            <a href="cars.html?page=1" class="btn-small">View All</a>
+        </div>
+        <div class="table" id="brands">
+            <div class="title">Brands</div>
+            <a href="brands.html?page=1" class="btn-small">View</a>
+        </div>
+        <div class="table" id="shifters">
+            <div class="title">Shifters</div>
+            <a href="transmissions.html" class="btn-small">View</a>
+        </div>
+        <div class="table" id="classes">
+            <div class="title">Class</div>
+            <a href="class.html" class="btn-small">View</a>
+        </div>
+        <div class="table" id="decade">
+            <div class="title">Decade</div>
+            <a href="decade.html" class="btn-small">View</a>
+        </div>
+        <div class="table" id="customPacks">
+            <div class="title">Custom Packs</div>
+            <a href="customPacks.html" class="btn-small">View</a>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="cont">
+            <img src="icons/logo_large.png" alt="Assetto Corsa Garage">
+            <p>Assetto Corsa Garage &copy; 2021</p>
+        </div>
+    </footer>
+
+    <div class="footer-filler"></div>
+
+    
+    <script src="js/nav.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/options.js"></script>
+</body>
+</html>

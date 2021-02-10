@@ -1,0 +1,26 @@
+#container-brands {
+    /* min-height: calc(100vh - 301px); */
+    /* display: flex; */
+}
+
+
+#container-filter,
+#container-brands {
+    min-height: calc(100vh - 251px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-filter .container,
+#container-brands .container {
+    margin-bottom: 0;
+}
+
+.container {
+    margin-top: 0;
+}
+
+.table-decades {
+    padding: 3rem;
+}
